@@ -8,7 +8,15 @@ ishungry = true;
 something = null;
 console.log(myname);
 console.log(typeof(myname));
+console.log(123 == '123');
+console.log(123 === '123');
+console.log(123 === 123);
+console.log(2 + '2');
+console.log(2 * '2');
+console.log(2 / '2');
 
+console.log(4 ** 2);  //square
+console.log(4 ** 0.5);  //square root
 
 
 
