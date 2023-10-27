@@ -23,4 +23,33 @@ console.log(fruits.slice(-3,-1));
 
 console.log(fruits[65]);
 
+// adding elements in an array
 
+fruits.push('banana');
+fruits.push('strawberry');   //add at the end of the array
+console.log(fruits);
+
+fruits.unshift('papaya');   //add the element at the starting of an array
+console.log(fruits);
+
+
+// replacing elements
+fruits[2] = 'cherry';
+console.log(fruits);
+
+//removing element
+
+fruits.pop(); //removes last element
+console.log(fruits);
+
+fruits.shift();  //removes first element
+console.log(fruits);
+
+
+// removing multiple items 
+console.log(fruits);
+fruits.splice(2,2);   //splice(starting index, no of elt to be removed)
+console.log(fruits);
+
+fruits.splice(1,2,'tomato','berry'); // replacing elements at the exact position
+console.log(fruits);
