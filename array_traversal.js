@@ -33,3 +33,6 @@ console.log("jsdjn@gmail.com".includes('mail'));
 
 const newmail = brands.filter((a) => { return a.includes('gmail')});
 console.log(newmail);
+
+const discount = price.map((a) => {return a*0.9});
+console.log(discount);
