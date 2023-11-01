@@ -54,26 +54,32 @@ console.log(brandfilter);
 const detail = [
     {
         name: 'Rohan',
-        email: 'rohan@hotmail.com',
+        email: 'rohan@gmail.com',
+        password: '123djsh',
         place: 'delhi'
     },
     {
         name: 'Anita',
-        email: 'anita@gmail.com',
+        email: 'anita@yahoo.com',
+        password: 'miow908',
         place: 'Lucknow',
     },
     {
         name: 'Ajay',
         email: 'ajay@yahoo.com',
+        password: '12djsh',
         place: 'Bangalore',
     },
     {
         name: 'Ramu',
         email: 'ramu@gmail.com',
-        place: 'Jaipur',
+        password: 'n83h78',
+        place: 'delhi',
     }
 ];
 
+
+console.log('-----------------------------------------');
 const findramu = detail.filter((a) => {return a.email === 'ramu@gmail.com'});
 console.log(findramu);
 // console.log(detail[1]);
